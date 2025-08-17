@@ -1,0 +1,146 @@
+.home-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.home-container2 {
+  flex: 0 0 auto;
+  width: 487px;
+  height: 695px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+ 
+.home-image {
+  width: 200px;
+  object-fit: cover;
+  padding-bottom: var(--dl-layout-space-twounits);
+}
+ 
+.home-eco-points {
+  display: flex;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  align-items: flex-start;
+  font-family: "Comic Sans MS";
+  font-weight: 700;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.home-puntos-ecologicos {
+  font-size: 20px;
+  font-family: "Roboto";
+  padding-bottom: var(--dl-layout-space-fourunits);
+}
+ 
+.home-registrarse {
+  width: var(--dl-layout-size-xlarge);
+  height: var(--dl-layout-size-small);
+  font-size: 20px;
+  font-family: "Roboto";
+  border-color: #000000;
+  border-width: 2px;
+  margin-bottom: var(--dl-layout-space-twounits);
+  text-decoration: none;
+  background-color: rgb(36, 182, 98);
+}
+ 
+.home-iniciar-sesion {
+  width: var(--dl-layout-size-xlarge);
+  height: var(--dl-layout-size-small);
+  display: flex;
+  font-size: 20px;
+  font-family: "Roboto";
+  border-width: 2px;
+  flex-direction: row;
+  text-decoration: none;
+  background-color: #24b662;
+}
+ 
+@media(max-width: 991px) {
+  .home-puntos-ecologicos {
+    top: 443px;
+    left: 418px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .home-puntos-ecologicos {
+    top: 442px;
+    left: 306px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .home-container2 {
+    width: 404px;
+    height: 707px;
+    position: relative;
+    align-self: center;
+    padding-top: 0px;
+    background-color: #ffffff;
+  }
+  .home-image {
+    top: 28px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  .home-eco-points {
+    top: 236px;
+    left: 139px;
+    position: absolute;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: 700;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-transform: capitalize;
+  }
+  .home-puntos-ecologicos {
+    width: var(--dl-layout-size-xlarge);
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    padding-bottom: 140px;
+  }
+  .home-registrarse {
+    top: 418px;
+    left: 0px;
+    right: 0px;
+    width: var(--dl-layout-size-xlarge);
+    height: var(--dl-layout-size-small);
+    margin: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: center;
+    font-family: Roboto;
+    background-color: #24b662;
+  }
+  .home-iniciar-sesion {
+    top: 495px;
+    left: 0px;
+    right: 0px;
+    width: var(--dl-layout-size-xlarge);
+    height: var(--dl-layout-size-small);
+    margin: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: center;
+    font-family: Roboto;
+    background-color: #24b662;
+  }
+}

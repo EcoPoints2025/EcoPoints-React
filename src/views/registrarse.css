@@ -1,0 +1,152 @@
+.registrarse-container1 {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.registrarse-container2 {
+  flex: 0 0 auto;
+  width: 487px;
+  height: 695px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+ 
+.registrarse-button1 {
+  top: 494px;
+  left: 0px;
+  right: 0px;
+  width: var(--dl-layout-size-xlarge);
+  height: var(--dl-layout-size-small);
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Roboto";
+  border-width: 2px;
+  background-color: #24b662;
+}
+ 
+.registrarse-button2 {
+  top: 406px;
+  left: 0px;
+  right: 0px;
+  width: var(--dl-layout-size-xlarge);
+  height: var(--dl-layout-size-small);
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Roboto";
+  border-color: #000000;
+  border-width: 2px;
+  background-color: rgb(36, 182, 98);
+}
+ 
+.registrarse-image {
+  top: 38px;
+  left: 0px;
+  right: 0px;
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+ 
+.registrarse-text1 {
+  top: 251px;
+  left: 178px;
+  position: absolute;
+  font-size: 30px;
+  font-style: normal;
+  font-family: "Comic Sans MS";
+  font-weight: 700;
+}
+ 
+.registrarse-text2 {
+  top: 447px;
+  left: 522px;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+ 
+@media(max-width: 991px) {
+  .registrarse-text2 {
+    top: 443px;
+    left: 418px;
+  }
+}
+ 
+@media(max-width: 767px) {
+  .registrarse-text2 {
+    top: 442px;
+    left: 306px;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .registrarse-container2 {
+    width: 404px;
+    height: 707px;
+    position: relative;
+    align-self: center;
+    padding-top: 0px;
+    background-color: #ffffff;
+  }
+  .registrarse-button1 {
+    top: 495px;
+    left: 0px;
+    right: 0px;
+    width: var(--dl-layout-size-xlarge);
+    height: var(--dl-layout-size-small);
+    margin: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: center;
+    font-family: Roboto;
+    background-color: #24b662;
+  }
+  .registrarse-button2 {
+    top: 418px;
+    left: 0px;
+    right: 0px;
+    width: var(--dl-layout-size-xlarge);
+    height: var(--dl-layout-size-small);
+    margin: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: center;
+    font-family: Roboto;
+    background-color: #24b662;
+  }
+  .registrarse-image {
+    top: 28px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  .registrarse-text1 {
+    top: 236px;
+    left: 139px;
+    position: absolute;
+    font-size: 30px;
+    font-style: normal;
+    font-family: Comic Sans MS;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .registrarse-text2 {
+    top: 432px;
+    left: 162px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Roboto;
+  }
+}
